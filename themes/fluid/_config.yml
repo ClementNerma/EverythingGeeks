@@ -288,7 +288,7 @@ gitalk:
   owner:                        # GitHub repository owner. Can be personal user or organization.
   admin: ['name']               # GitHub repo owner and collaborators, only these guys can initialize github issues, should be like ['admin'] or ['admin1','admin2']
   id: location.pathname         # The unique id of the page. Length must less than 50.
-  language: zh-CN               # Localization language key, en, zh-CN and zh-TW are currently available.
+  language: en               # Localization language key, en, zh-CN and zh-TW are currently available.
   labels: ['Gitalk']            # GitHub issue labels.
   perPage: 10                   # Pagination size, with maximum 100.
   pagerDirection: last          # Comment sorting direction, available values are last and first.
