@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Everything Geeks
 subtitle: ''
-description: ''
+description: A blog about (almost) everything
 keywords:
-author: John Doe
+author: Clément Nerma
 language: en
-timezone: ''
+timezone: Europe/Paris
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://clementnerma.github.io/everythinggeeks
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
