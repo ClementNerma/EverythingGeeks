@@ -27,7 +27,7 @@ highlight: # 代码高亮
 
 fun_features: # 一些好玩的功能
   typing: # 为 subtitle 添加打字机效果
-    enable: false
+    enable: true
     typeSpeed: 70  # 打印速度，数字越大越慢
     cursorChar: "_" # 游标字符
     loop: false # 是否循环播放效果
@@ -71,7 +71,7 @@ color:  # 主题颜色配置，不一定能每一处都生效，可能会被局�
 
 font:  # 主题字体配置
   font_size: 16px                   # 全局字号
-  font_family: sans-serif                     # 全局字体
+  font_family:                      # 全局字体
   code_font_size: 85%               # 代码的字号
 
 custom_js:   # 指定自定义 js 文件路径，路径是相对 source 目录，如 /js/custom.js 对应存放目录 source/js/custom.js，支持列表
@@ -120,7 +120,7 @@ version:  # 主题版本相关
 # Header
 #---------------------------
 navbar:
-  blog_title: Everything Geeks # 导航栏左侧的标题，为空则按 hexo config.title 显示
+  blog_title: Fluid # 导航栏左侧的标题，为空则按 hexo config.title 显示
   ground_glass:  # 导航栏毛玻璃特效，实验性功能，可能会造成页面滚动掉帧和抖动，部分浏览器不支持会自动不生效
     enable: false
     px: 3  # 模糊像素，只能为数字，数字越大模糊度越高
@@ -174,13 +174,13 @@ scroll_top_arrow:  # 向顶部滚动的箭头
 # Index Page
 #---------------------------
 index:
-  banner_img:  # 首页 Banner 头图，以下相同
+  banner_img: /img/default.png  # 首页 Banner 头图，以下相同
   banner_img_height: 100  # 头图高度，屏幕百分比，available: 0 - 100
   banner_mask_alpha: 0.3  # 头图黑色蒙版的透明度，available: 0 - 1.0， 0 是完全透明（无蒙版），1 是完全不透明
   post_default_img: '' # 默认的文章封面图，当没有指定 index_img 时会使用该图片，若都为空则不显示任何图片
   slogan:  # 首页副标题的独立设置
     enable: true  # 为 false 则不显示任何内容
-    text: "Everything Geeks. Let's talk about things."  # 为空则按 hexo config.subtitle 显示
+    text: 'An elegant Material-Design theme for Hexo'  # 为空则按 hexo config.subtitle 显示
   auto_excerpt:
     enable: true
   post_url_target: _self  # available: _blank | _self
@@ -192,7 +192,7 @@ index:
 # 通过 hexo new page 命令创建的页面
 # Custom Page
 page:
-  banner_img:
+  banner_img: /img/default.png
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
 
@@ -201,7 +201,7 @@ page:
 # Post Page
 #---------------------------
 post:  # 部分配置同时控制自定义页面，注意备注
-  banner_img:
+  banner_img: /img/default.png
   banner_img_height: 70  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   meta:  # 文章标题下方的信息
@@ -210,26 +210,26 @@ post:  # 部分配置同时控制自定义页面，注意备注
       format: "LL a"  # 格式参照 ISO-8601 日期格式化，可参照 http://momentjs.cn/docs/#/parsing/string-format/
     wordcount:  # 字数统计
       enable: true
-      format: "{} words"  # 显示的文本，{}是数字的占位符（必须包含)，下同
+      format: "{} 字"  # 显示的文本，{}是数字的占位符（必须包含)，下同
     min2read:  # 阅读时间
       enable: true
-      format: "{} minutes"
+      format: "{} 分钟"
       words: 100  # 每分钟阅读多少字，如果是技术文章，建议降低
     views:  # 阅读次数
       enable: false
       source: "busuanzi"  # 统计数据来源，可选：busuanzi | leancloud，使用 leancloud 需要在 web_analytics 中设置 api 参数，使用 busuanzi 注意可能间歇抽风
-      format: "{} views"
+      format: "{} 次"
   updated:  # 在文章开头显示文章更新时间，该时间默认是 md 文件更新时间，可通过 front-matter 中 `updated` 手动指定（和 date 一样格式）
     enable: false
-    content: Updated on：  # 描述文字
+    content: 本文最后更新于：  # 描述文字
     relative: false  # 是否使用相对时间表示，比如："3 天前"
   toc:  # 文章右侧目录
     enable: true
     headingSelector: h1,h2,h3,h4,h5,h6
     collapseDepth: 0  # 层级的折叠深度，0 是全部折叠，6 是全部不折叠
   copyright:  # 版权声明
-    enable: false
-    content: 'Copyright <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！'
+    enable: true
+    content: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！'
   prev_next:  # 文章底部上一篇下一篇功能
     enable: true
   custom:  # 文章底部自定义内容
@@ -288,7 +288,7 @@ gitalk:
   owner:                        # GitHub repository owner. Can be personal user or organization.
   admin: ['name']               # GitHub repo owner and collaborators, only these guys can initialize github issues, should be like ['admin'] or ['admin1','admin2']
   id: location.pathname         # The unique id of the page. Length must less than 50.
-  language: en               # Localization language key, en, zh-CN and zh-TW are currently available.
+  language: zh-CN               # Localization language key, en, zh-CN and zh-TW are currently available.
   labels: ['Gitalk']            # GitHub issue labels.
   perPage: 10                   # Pagination size, with maximum 100.
   pagerDirection: last          # Comment sorting direction, available values are last and first.
@@ -306,7 +306,7 @@ valine:
   avatar: retro # Gravatar 头像展示方式
   meta: ['nick', 'mail', 'link']  # 评论者相关属性
   pageSize: 10 # 评论列表分页，每页条数
-  lang: en # zh-CN | zh-TW | en | ja
+  lang: zh-CN # zh-CN | zh-TW | en | ja
   highlight: false # 代码高亮
   recordIP: false # 是否记录评论者IP
   serverURLs:  # REST API 服务器地址，国际版不填
@@ -328,7 +328,7 @@ livere:
 # Archive Page
 #---------------------------
 archive:
-  banner_img:
+  banner_img: /img/default.png
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   subtitle:  # 打字机内容
@@ -338,7 +338,7 @@ archive:
 # Categories Page
 #---------------------------
 category:
-  banner_img:
+  banner_img: /img/default.png
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   subtitle:  # 打字机内容
@@ -350,7 +350,7 @@ category:
 # Tags Page
 #---------------------------
 tag:
-  banner_img:
+  banner_img: /img/default.png
   banner_img_height: 80  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   subtitle:  # 打字机内容
@@ -367,15 +367,17 @@ tag:
 # About Page
 #---------------------------
 about:  # 关于页需要手动创建，具体请见：https://hexo.fluid-dev.com/docs/guide/#%E5%85%B3%E4%BA%8E%E9%A1%B5
-  banner_img:
+  banner_img: /img/default.png
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   subtitle:  # 打字机内容
   avatar: /img/avatar.png # 头像
-  name: Clément Nerma
-  introduce: '- I make stuff' # 支持 HTML
+  name: myname
+  introduce: '一句简短的介绍' # 支持 HTML
   icons: # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，class 代表图标的 css class
-    - { class: 'iconfont icon-github-fill', link: 'https://github.com/ClementNerma', tip: 'GitHub' }
+    - { class: 'iconfont icon-github-fill', link: 'https://github.com', tip: 'GitHub' }
+    - { class: 'iconfont icon-douban-fill', link: 'https://douban.com', tip: '豆瓣' }
+    - { class: 'iconfont icon-wechat-fill', qrcode: '/img/favicon.png' }  # 添加 qrcode 后，点击不再跳转，而是悬浮二维码，需要指定 image
 
 
 #---------------------------
@@ -383,7 +385,7 @@ about:  # 关于页需要手动创建，具体请见：https://hexo.fluid-dev.co
 # 404 Page
 #---------------------------
 page404:
-  banner_img:
+  banner_img: /img/default.png
   banner_img_height: 85  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   subtitle: 'Page not found'  # 打字机内容
@@ -394,7 +396,7 @@ page404:
 # Links Page
 #---------------------------
 links:
-  banner_img:
+  banner_img: /img/default.png
   banner_img_height: 60  # available: 0 - 100
   banner_mask_alpha: 0.3  # available: 0 - 1.0
   subtitle:  # 打字机内容

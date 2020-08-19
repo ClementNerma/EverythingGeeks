@@ -1,0 +1,50 @@
+
+fun_features:
+  typing:
+    enable: false
+
+font:
+  font_family: sans-serif
+
+navbar:
+  blog_title: Everything Geeks
+
+index:
+  banner_img:
+  slogan:
+    text: Everything Geeks. Let's talk about things.
+  
+page:
+  banner_img:
+
+post:
+  banner_img:
+  meta:
+    wordcount:
+      format: "{} words"
+    min2read:
+      format: "{} minutes"
+  copyright:
+    enable: false
+
+archive:
+  banner_img:
+
+category:
+  banner_img:
+
+tag:
+  banner_img:
+
+about:
+  banner_img:
+  name: Clément Nerma
+  introduce: "- I make stuff"
+  icons:
+    - { class: 'iconfont icon-github-fill', link: 'https://github.com/ClementNerma', tip: 'GitHub' }
+
+page404:
+  banner_img:
+
+links:
+  banner_img:
