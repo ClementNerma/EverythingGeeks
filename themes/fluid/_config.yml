@@ -27,7 +27,7 @@ highlight: # 代码高亮
 
 fun_features: # 一些好玩的功能
   typing: # 为 subtitle 添加打字机效果
-    enable: true
+    enable: false
     typeSpeed: 70  # 打印速度，数字越大越慢
     cursorChar: "_" # 游标字符
     loop: false # 是否循环播放效果
