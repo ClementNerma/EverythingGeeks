@@ -8,7 +8,7 @@ tags: Others
 
 This is my first post on this blog, which I hope will be part of a long series of articles.
 
-I wanted to open this blog to talk about little things on a regular basis. This can be little programming tips, maybe cool hardware stuff that's coming in the next few months/years, and various other subjects.
+I wanted to open this blog to talk about little things on a regular basis. This can be little programming tips, maybe cool hardware stuff that's coming in the next few months/years, and various other subjects, some which may not even be related to computer science at all. We'll see!
 
 I'll try to commit posting on this blog regularily, but I don't know for how long I'll have the motivation to write here, so let's see this site as a little "experiment".
 
