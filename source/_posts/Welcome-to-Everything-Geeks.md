@@ -3,7 +3,7 @@ layout: post
 title: Welcome to Everything Geeks!
 date: 2020-08-19 17:28:28
 categories: About the blog
-tags: Others
+tags: [Others, Meta]
 ---
 
 This is my first post on this blog, which I hope will be part of a long series of articles.

@@ -3,7 +3,7 @@ layout: post
 title: How does an audio system actually work?
 date: 2020-08-20 22:51:18
 categories: Audio series
-tags: audio
+tags: [Audio, Series]
 ---
 
 Well, this first post will be about how an audio system works. I told that this blog may not talk only about computer science, and here we are :D !
