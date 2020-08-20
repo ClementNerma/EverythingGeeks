@@ -14,3 +14,5 @@ I opened this blog to talk about... stuff. I don't have a precise idea of what t
 Anyway, welcome aboard 🙂!
 
 Oh and, by the way, this blog is fully open-source and you can find its source code [on github](https://github.com/ClementNerma/EverythingGeeks) 😉
+
+Also, a huge thanks to [@rmRadev](https://www.deviantart.com/rmradev) for kindly allowing me to use their art for the background image of this blog <3

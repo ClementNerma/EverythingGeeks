@@ -10,15 +10,15 @@ navbar:
   blog_title: Everything Geeks
 
 index:
-  banner_img:
+  banner_img: /images/background.png
   slogan:
     text: Everything Geeks. Let's talk about things.
   
 page:
-  banner_img:
+  banner_img: /images/background.png
 
 post:
-  banner_img:
+  banner_img: /images/background.png
   meta:
     wordcount:
       format: "{} words"
@@ -28,23 +28,25 @@ post:
     enable: false
 
 archive:
-  banner_img:
+  banner_img: /images/background.png
 
 category:
-  banner_img:
+  banner_img: /images/background.png
 
 tag:
-  banner_img:
+  banner_img: /images/background.png
 
 about:
-  banner_img:
+  banner_img: /images/background.png
   name: Clément Nerma
   introduce: "- I make stuff"
   icons:
     - { class: 'iconfont icon-github-fill', link: 'https://github.com/ClementNerma', tip: 'GitHub' }
 
 page404:
-  banner_img:
+  banner_img: /images/background.png
 
 links:
-  banner_img:
+  banner_img: /images/background.png
+
+custom_js: /js/fluid_custom.js
