@@ -24,6 +24,7 @@ post:
       format: "{} words"
     min2read:
       format: "{} minutes"
+      words: 350
   copyright:
     enable: false
 
