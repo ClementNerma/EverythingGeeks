@@ -18,7 +18,7 @@ Oh, by the way, I realize I didn't introduce myself. So, let's go.
 
 My name is Clément Nerma. "Clément" is my real first name, but "Nerma" is actually a pseudonym that comes from the name of a dragon I imagined when I was a child (yes, that's the first idea that came to my mind when I created this name).
 
-I currently live and work in France as a backend web developer. I mainly make websites using Nest.js and TypeORM/MikroORM, as well as a bit of front sometimes with React.js. All in TypeScript (of course!).
+I currently live and work in France as a software developer. I mainly make websites and applications, mostly using TypeScript and Rust.
 
 But besides of my work, I love studying low-level programming and how computers actually work. How an operating system balances performances between processes, how programs communicate efficiently but in a still "perfecly" (almost) secure way, etc.
 
