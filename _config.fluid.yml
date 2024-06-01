@@ -16,13 +16,6 @@ footer:
     <i class="iconfont icon-love"></i>
     <a href="https://www.deviantart.com/rmradev" style="color: blue;">rmRadev</a> (background image)
 
-  toc:
-    enable: true
-    placement: left
-
-  prev_next:
-    enable: true
-
 index:
   banner_img: /images/background.png
   banner_img_height: 70
@@ -37,14 +30,22 @@ post:
   banner_img: /images/background.png
   banner_img_height: 50
   banner_mask_alpha: 0.5
+
   meta:
     wordcount:
-      format: "{} words"
+      enable: false
+
     min2read:
-      format: "{} minutes"
-      words: 350
+      enable: false
+
   copyright:
     enable: false
+
+  toc:
+    enable: false
+
+  prev_next:
+    enable: true
 
 archive:
   banner_img: /images/background.png
