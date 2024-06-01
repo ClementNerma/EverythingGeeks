@@ -49,19 +49,19 @@ post:
 
 archive:
   banner_img: /images/background.png
-  banner_img_height: 70
+  banner_img_height: 50
 
 category:
   banner_img: /images/background.png
-  banner_img_height: 70
+  banner_img_height: 50
 
 tag:
   banner_img: /images/background.png
-  banner_img_height: 70
+  banner_img_height: 50
 
 about:
   banner_img: /images/background.png
-  banner_img_height: 70
+  banner_img_height: 50
   name: Clément Nerma
   introduce: "- I make stuff"
   icons:
@@ -73,8 +73,8 @@ about:
 
 page404:
   banner_img: /images/background.png
-  banner_img_height: 70
+  banner_img_height: 100
 
 links:
   banner_img: /images/background.png
-  banner_img_height: 70
+  banner_img_height: 100
