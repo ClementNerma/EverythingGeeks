@@ -1,0 +1,79 @@
+fun_features:
+  typing:
+    enable: false
+
+font:
+  font_family: sans-serif
+
+navbar:
+  blog_title: Everything Geeks
+
+footer:
+  content: >
+    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+    <i class="iconfont icon-love"></i>
+    <a href="https://www.deviantart.com/rmradev" style="color: blue;">rmRadev</a> (background image)
+
+  toc:
+    enable: true
+    placement: left
+
+  prev_next:
+    enable: true
+
+index:
+  banner_img: /images/background.png
+  banner_img_height: 70
+  slogan:
+    text: Everything Geeks. Let's talk about things.
+
+page:
+  banner_img: /images/background.png
+  banner_img_height: 70
+
+post:
+  banner_img: /images/background.png
+  banner_img_height: 50
+  banner_mask_alpha: 0.5
+  meta:
+    wordcount:
+      format: "{} words"
+    min2read:
+      format: "{} minutes"
+      words: 350
+  copyright:
+    enable: false
+
+archive:
+  banner_img: /images/background.png
+  banner_img_height: 70
+
+category:
+  banner_img: /images/background.png
+  banner_img_height: 70
+
+tag:
+  banner_img: /images/background.png
+  banner_img_height: 70
+
+about:
+  banner_img: /images/background.png
+  banner_img_height: 70
+  name: Clément Nerma
+  introduce: "- I make stuff"
+  icons:
+    - {
+        class: "iconfont icon-github-fill",
+        link: "https://github.com/ClementNerma",
+        tip: "GitHub",
+      }
+
+page404:
+  banner_img: /images/background.png
+  banner_img_height: 70
+
+links:
+  banner_img: /images/background.png
+  banner_img_height: 70
